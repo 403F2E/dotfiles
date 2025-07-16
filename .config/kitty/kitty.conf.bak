@@ -33,6 +33,6 @@ window_padding_width 4
 
 # include ./current-theme.conf
 # BEGIN_KITTY_THEME
-# Atelier Cave Dark
-include current-theme.conf
+# zenwritten_dark
+include ./kitty-themes/Urple.conf
 # END_KITTY_THEME

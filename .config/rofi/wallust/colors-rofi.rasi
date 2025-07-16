@@ -2,48 +2,48 @@
  /* wallust template - colors-rofi */
 
 * {
-active-background: #63607C;
-active-foreground: #F2E6F0;
-normal-background: #191B21;
-normal-foreground: #F2E6F0;
-urgent-background: #A491AD;
-urgent-foreground: #F2E6F0;
+active-background: #4ABAAF;
+active-foreground: #DDEECB;
+normal-background: #1D1D1E;
+normal-foreground: #DDEECB;
+urgent-background: #E0AF68;
+urgent-foreground: #DDEECB;
 
-alternate-active-background: #285889;
-alternate-active-foreground: #F2E6F0;
-alternate-normal-background: #191B21;
-alternate-normal-foreground: #F2E6F0;
-alternate-urgent-background: #191B21;
-alternate-urgent-foreground: #F2E6F0;
+alternate-active-background: #7AA2F7;
+alternate-active-foreground: #DDEECB;
+alternate-normal-background: #1D1D1E;
+alternate-normal-foreground: #DDEECB;
+alternate-urgent-background: #1D1D1E;
+alternate-urgent-foreground: #DDEECB;
 
-selected-active-background: #A491AD;
-selected-active-foreground: #F2E6F0;
-selected-normal-background: #A491AD;
-selected-normal-foreground: #F2E6F0;
-selected-urgent-background: #63607C;
-selected-urgent-foreground: #F2E6F0;
+selected-active-background: #E0AF68;
+selected-active-foreground: #DDEECB;
+selected-normal-background: #E0AF68;
+selected-normal-foreground: #DDEECB;
+selected-urgent-background: #4ABAAF;
+selected-urgent-foreground: #DDEECB;
 
-background-color: #191B21;
+background-color: #1D1D1E;
 background: rgba(0,0,0,0.7);
-foreground: #F2E6F0;
-border-color: #63607C;
+foreground: #DDEECB;
+border-color: #4ABAAF;
 
-color0: #404248;
-color1: #0F1C31;
-color2: #1E4267;
-color3: #1E4267;
-color4: #4A485D;
-color5: #7B6D82;
-color6: #A38B9F;
-color7: #E3D3E1;
-color8: #9F949D;
-color9: #142541;
-color10: #285889;
-color11: #285889;
-color12: #63607C;
-color13: #A491AD;
-color14: #D9B9D4;
-color15: #E3D3E1;
+color0: #444445;
+color1: #3B3C56;
+color2: #B7596B;
+color3: #5B79B9;
+color4: #388C83;
+color5: #A8834E;
+color6: #769B4F;
+color7: #C6DEAC;
+color8: #8B9B78;
+color9: #4F5072;
+color10: #F4778F;
+color11: #7AA2F7;
+color12: #4ABAAF;
+color13: #E0AF68;
+color14: #9ECE6A;
+color15: #C6DEAC;
 
 
 }

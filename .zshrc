@@ -34,7 +34,7 @@ alias lt='ls --tree'
 
 # ZSH_THEME="alanpeabody"
 
-eval "$(oh-my-posh init zsh --config $HOME/.cache/oh-my-posh/themes/sonicboom_dark.omp.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.cache/oh-my-posh/themes/bubblesextra.omp.json)"
 
 plugins=( 
     git

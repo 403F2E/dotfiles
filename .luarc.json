@@ -1,0 +1,8 @@
+{
+    "diagnostics.disable": [
+        "deprecated"
+    ],
+    "diagnostics.globals": [
+        "vim"
+    ]
+}
