@@ -5,9 +5,9 @@ folder="$HOME/Documents/Notes/"
 newnote() {
   local name
   pkill rofi || true
- name=$(rofi -dmenu -l 0 -p "Enter note name: ") || exit 0
+  name=$(rofi -dmenu -l 0 -p "Enter note name: ") || exit 0
   : "${name:=$(date +%F_%T | tr ':' '-')}"
-  setsid -f kitty -e cd $folder && nvim . 2>/dev/null
+  kitty -e sh -c "cd \"$folder\" && nvim \"$name\""
 }
 
 selected() {

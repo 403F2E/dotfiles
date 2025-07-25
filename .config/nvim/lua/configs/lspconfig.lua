@@ -267,20 +267,20 @@ lspconfig.rust_analyzer.setup({
 	},
 })
 
--- lspconfig.intelephense.setup({
--- 	on_attach = on_attach,
--- 	on_init = nvlsp.on_init,
--- 	capabilities = capabilities,
--- 	filetypes = { "php", "blade" },
--- 	settings = {
--- 		intelephense = {
--- 			environment = {
--- 				phpVersion = "8.2",
--- 				includePath = { "vendor" },
--- 			},
--- 			files = {
--- 				maxSize = 5000000,
--- 			},
--- 		},
--- 	},
--- })
+lspconfig.intelephense.setup({
+	on_attach = on_attach,
+	on_init = nvlsp.on_init,
+	capabilities = capabilities,
+	filetypes = { "php", "blade" },
+	settings = {
+		intelephense = {
+			environment = {
+				phpVersion = "8.2",
+				includePath = { "vendor" },
+			},
+			files = {
+				maxSize = 5000000,
+			},
+		},
+	},
+})
