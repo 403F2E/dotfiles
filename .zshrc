@@ -34,7 +34,7 @@ alias lt='ls --tree'
 
 # ZSH_THEME="alanpeabody"
 
-eval "$(oh-my-posh init zsh --config $HOME/.cache/oh-my-posh/themes/bubblesextra.omp.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.cache/oh-my-posh/themes/catppuccin_mocha.omp.json)"
 
 plugins=( 
     git
@@ -74,7 +74,7 @@ setopt autocd
 # Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 # pokemon-colorscripts --no-title -s -r #without fastfetch
 # pokemon-colorscripts --no-title -s -r | fastfetch -c $HOME/.config/fastfetch/config-pokemon.jsonc --logo-type file-raw --logo-height 10 --logo-width 5 --logo -
-fastfetch
+fastfetch -c ~/.config/fastfetch/config_new.jsonc
 
 # fastfetch. Will be disabled if above colorscript was chosen to install
 # fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
