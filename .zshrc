@@ -3,6 +3,9 @@
 
 # export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.config/composer/vendor/bin/:$HOME/.local/bin/:$HOME/.cargo/bin/:$PATH"
+export PATH="$HOME/Desktop/Stuff/Projects/Flutter/flutter/bin:$PATH"
+export ANDROID_HOME="$HOME/Desktop/Stuff/Projects/Flutter/Android/Sdk/"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator"
 
 autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -89,4 +92,5 @@ jd() { cd ~/Desktop/Stuff/Projects/Java/ }
 phd() { cd ~/Desktop/Stuff/Projects/PHP/ }
 wd() { cd ~/Desktop/Stuff/Projects/Web_Project/ }
 home() { cd ~ }
+prog() { cd ~/Desktop/Stuff/Projects/ }
 leet() { cd ~/Desktop/Stuff/Projects/Leetcode/}

@@ -50,3 +50,6 @@ map("n", "<leader>gl", ":Git log<CR>", { desc = "Git log" })
 map("n", "<leader>gbb", ":Git blame<CR>", { desc = "Git blame" })
 map("n", "<leader>gP", ":Git push<CR>", { desc = "Git push" })
 map("n", "<leader>gA", ":Git add .<CR>", { desc = "Git add all files" })
+
+-- flutter keybindings
+map("n", "<leader>tf", ":Telescope flutter commands<CR>", { desc = "Display the flutter commands" })
