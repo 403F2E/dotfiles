@@ -271,7 +271,7 @@ lspconfig.intelephense.setup({
 	on_attach = on_attach,
 	on_init = nvlsp.on_init,
 	capabilities = capabilities,
-	filetypes = { "php", "blade" },
+	filetypes = { "php" },
 	settings = {
 		intelephense = {
 			environment = {

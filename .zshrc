@@ -90,7 +90,10 @@ cdir() { cd ~/Desktop/Stuff/Projects/C/ }
 cpd() { cd ~/Desktop/Stuff/Projects/C++/ }
 jd() { cd ~/Desktop/Stuff/Projects/Java/ }
 phd() { cd ~/Desktop/Stuff/Projects/PHP/ }
+flut() { cd ~/Desktop/Stuff/Projects/Flutter/ }
 wd() { cd ~/Desktop/Stuff/Projects/Web_Project/ }
 home() { cd ~ }
 prog() { cd ~/Desktop/Stuff/Projects/ }
 leet() { cd ~/Desktop/Stuff/Projects/Leetcode/}
+pentest() { cd ~/Desktop/PenTEST/ }
+dev() { cd ~/Desktop/Stuff/Projects/Dev/ }

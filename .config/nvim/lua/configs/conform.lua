@@ -4,7 +4,6 @@ local options = {
 		lua = { "stylua" },
 		css = { "prettier" },
 		html = { "prettier" },
-		php = { "duster" },
 	},
 
 	format_on_save = {
